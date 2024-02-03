@@ -92,6 +92,15 @@ def parser_args():
 
     args = parser.parse_args()
 
+    if args.lb_ratio == 0.05:
+        args.warmup_batch_size = 16
+    elif args.lb_ratio == 0.1:
+        args.warmup_batch_size = 32
+    elif args.lb_ratio == 0.15:
+        args.warmup_batch_size = 48
+    elif args.lb_ratio == 0.2:
+        args.warmup_batch_size = 64
+
     args.output = args.net + '_outputs'
     args.n_classes = NUM_CLASS[args.dataset_name]
     args.dataset_dir = os.path.join(args.dataset_dir, args.dataset_name) 

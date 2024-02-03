@@ -15,14 +15,14 @@ To train and evaluate a model, the next two steps are required:
 1. Firstly, we warm up the model with the labeled data. Run:
 ```
 python run_warmup.py --loss_lb asl --lb_ratio 0.05 \
---warmup_epochs 12 --warmup_batch_size 16 --lr 1e-4 --net resnet50 \
+--warmup_epochs 12 --lr 1e-4 --net resnet50 \
 --dataset_name coco --dataset_dir ./data
 ```
 
 2. Secondly, we train the model with CAP method. Run:
 ```
 python run_CAP.py --loss_lb asl --loss_ub asl --lb_ratio 0.05 \
---warmup_epochs 12 --warmup_batch_size 16 --lr 1e-4 --net resnet50 \
+--warmup_epochs 12 --lr 1e-4 --net resnet50 \
 --dataset_name coco --dataset_dir ./data \
 --init_pos_per 1.0 --init_neg_per 1.0
 ```
