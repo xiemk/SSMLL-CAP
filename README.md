@@ -27,9 +27,9 @@ python run_CAP.py --loss_lb asl --loss_ub asl --lb_ratio 0.05 \
 --init_pos_per 1.0 --init_neg_per 1.0
 ```
 
-### Training Log
+## Training Logs
 
-#### Download warmup models.
+### Download warmup models.
 
 | Labeled Proportion | Warmup mAP | mAP   | Link                                                         |
 | :----------------- | ---------- | ----- | ------------------------------------------------------------ |
