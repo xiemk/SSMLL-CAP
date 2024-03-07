@@ -1,6 +1,6 @@
-# [NeurIPS-23] Class-Distribution-Aware Pseudo Labeling for Semi-Supervised Multi-Label Learning
+# [NeurIPS-23] Class-Distribution-Aware Pseudo-Labeling for Semi-Supervised Multi-Label Learning
 
-The implementation for the paper [Class-Distribution-Aware Pseudo Labeling for Semi-Supervised Multi-Label Learning](http://www.xiemk.pro/publication/neurips23-cap.pdf) (NeurIPS 2023). 
+The implementation for the paper [Class-Distribution-Aware Pseudo-Labeling for Semi-Supervised Multi-Label Learning](http://www.xiemk.pro/publication/neurips23-cap.pdf) (NeurIPS 2023). 
 
 See much more related works in [Awesome Weakly Supervised Multi-Label Learning!](https://github.com/milkxie/awesome-weakly-supervised-multi-label-learning) 
 
